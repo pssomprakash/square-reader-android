@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-squarereaderandroid",
+  "name": "cordova-plugin-square-reader-android",
   "version": "0.1.0",
-  "description": "squarereaderandroid",
+  "description": "cordova-plugin-square-reader-android",
   "cordova": {
-    "id": "cordova-plugin-squarereaderandroid",
+    "id": "cordova-plugin-square-reader-android",
     "platforms": [
       "android"
     ]

@@ -1,9 +1,9 @@
 {
-  "name": "squareReaderAndroid",
-  "version": "0.0.1",
-  "description": "squareReaderAndroid",
+  "name": "cordova-plugin-squarereaderandroid",
+  "version": "0.1.0",
+  "description": "squarereaderandroid",
   "cordova": {
-    "id": "com.om.squareReaderAndroid",
+    "id": "cordova-plugin-squarereaderandroid",
     "platforms": [
       "android"
     ]
@@ -16,7 +16,7 @@
     "ecosystem:cordova",
     "cordova-android"
   ],
-  "author": "om prakash",
+  "author": "om prakash singh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pssomprakash/square-reader-android/issues"

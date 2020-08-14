@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.om.squareReaderAndroid" version="0.0.1">
+   <name>squareReaderAndroid</name>
+   <js-module name="squareReaderAndroid" src="www/squareReaderAndroid.js">
+      <clobbers target="cordova.plugins.squareReaderAndroid" />
+   </js-module>
+   <platform name="android">
+      <config-file parent="/*" target="res/xml/config.xml">
+         <feature name="squareReaderAndroid">
+            <param name="android-package" value="com.om.squareReaderAndroid.squareReaderAndroid" />
+            <param name="onload" value="true" />
+         </feature>
+      </config-file>
+      <config-file parent="/*" target="AndroidManifest.xml" />
+      <source-file src="src/android/squareReaderAndroid.java" target-dir="src/com/om/squareReaderAndroid/squareReaderAndroid" />
+   </platform>
+</plugin>

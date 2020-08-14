@@ -10,7 +10,7 @@
         <framework src="gradle/square.gradle" custom="true" type="gradleReference" />
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="SquareReaderAndroid">
-                <param name="android-package" value="com.om.squareReaderAndroid" />
+                <param name="android-package" value="com.om.squareReaderAndroid.SquareReaderAndroid" />
                 <param name="onload" value="true" />
             </feature>
         </config-file>

@@ -1,0 +1,40 @@
+{
+  "_from": "cordova-plugin-square-reader-android",
+  "_id": "cordova-plugin-square-reader-android@0.2.3",
+  "_inBundle": false,
+  "_integrity": "sha512-o+XhsRjfW+QSPOsqPXjU+s66ELoS7ubeKkzdubzsLZQHjKDmH3iVmtDV8Gb6r+e8GsP2u4eDKQaIgw/ZyVkTXQ==",
+  "_location": "/cordova-plugin-square-reader-android",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-square-reader-android",
+    "name": "cordova-plugin-square-reader-android",
+    "escapedName": "cordova-plugin-square-reader-android",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-square-reader-android/-/cordova-plugin-square-reader-android-0.2.3.tgz",
+  "_shasum": "507d05a71aaa3e4ac369e766be6a403d73ebc28c",
+  "_spec": "cordova-plugin-square-reader-android",
+  "_where": "/Users/indigo.client2/www/App/jellyfish/distributor_mobile/distributor_mobile",
+  "author": "",
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-square-reader-android",
+    "platforms": []
+  },
+  "deprecated": false,
+  "description": "TBD",
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "license": "ISC",
+  "name": "cordova-plugin-square-reader-android",
+  "version": "0.2.3"
+}

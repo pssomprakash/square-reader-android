@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-square-reader-android" version="0.1.0"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>SquareReaderAndroid</name>
+    <js-module name="SquareReaderAndroid" src="www/square-reader-android.js">
+        <clobbers target="cordova.plugins.squareReaderAndroid" />
+    </js-module>
+    <platform name="android">
+        <framework src="gradle/square.gradle" custom="true" type="gradleReference" />
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="SquareReaderAndroid">
+                <param name="android-package" value="com.om.squareReaderAndroid" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/SquareReaderAndroid.java" target-dir="src/com/om/squareReaderAndroid" />
+        <source-file src="src/android/SquareReaderApplication.java" target-dir="src/com/om/squareReaderAndroid" />
+    </platform>
+    <hook type="after_prepare" src="scripts/android/add_application_name.js" />
+</plugin>

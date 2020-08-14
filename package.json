@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-squarereader-android",
+  "version": "0.1.0",
+  "description": "TBD",
+  "cordova": {
+    "id": "cordova-plugin-squarereader-android",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pssomprakash/square-reader-android.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "om prakash singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pssomprakash/square-reader-android/issues"
+  },
+  "homepage": "https://github.com/pssomprakash/square-reader-android#readme"
+}

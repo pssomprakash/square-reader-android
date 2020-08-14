@@ -17,5 +17,6 @@
 		<source-file src="src/android/SquareReaderAndroid.java" target-dir="src/com/om/squareReaderAndroid" />
         <source-file src="src/android/SquareReaderApplication.java" target-dir="src/com/om/squareReaderAndroid" />
         <hook type="after_plugin_install" src="scripts/android/add_application_name.js" />
+         <framework src="gradle/square.gradle" custom="true" type="gradleReference" />
 	</platform>
 </plugin>
